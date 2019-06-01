@@ -5,7 +5,7 @@ class Application
     
     current_time = Time.now
     
-    if current_time.
+    if current_time.hour < 12
     
     resp.finish
   
